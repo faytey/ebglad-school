@@ -1,0 +1,9 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.Navbar a{
+    margin: 0 1rem;
+}

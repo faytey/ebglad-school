@@ -1,0 +1,72 @@
+.Hero .first-div{
+    position: relative;
+    background-image: url("Hero Assets/hero-ellipse.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 36rem;
+}
+
+.first-div img{
+    position: absolute;
+}
+
+.img1, .img2, .img3{
+    background: 
+    linear-gradient(#161a20, #0b6cff) border-box;
+    border-radius: 50%;
+    border: 0.5rem solid transparent;
+}
+
+.img1{
+    width: 12rem;
+    height: 12rem;
+    left: 40rem;
+    top: 0.6rem;
+    z-index: 2;
+}
+
+.img2{
+    border-width: 0.7rem;
+    width: 17rem;
+    height: 17rem;
+    left: 46.5rem;
+    top: 8rem;
+    z-index: 1;
+}
+
+.img3{
+    border-width: 1rem;
+    width: 24rem;
+    height: 24rem;
+    left: 61.3rem;
+    top: 11.7rem;
+}
+
+.img5{
+    width: 5rem;
+    height: 5rem;
+    left: 52rem;
+    top: 27rem;
+}
+
+.img6{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0 3rem 3rem 0;
+}
+
+.second-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.ebglad-intro{
+    display: flex;
+    flex-direction: column;
+    color: #0b6cff;
+    font-weight: 600;
+    font-size: 2rem;
+}
