@@ -11,9 +11,8 @@ function Hero(){
         <div className="Hero">
             <div className="first-div"> 
                 <div className="ebglad-intro">
-                    <span>Ebglad</span>
-                    <span>Schools</span>
-                    <span><button>Register Here</button></span>
+                    <h1>Ebglad<br /> Schools</h1>
+                    <a href="#">Register Here</a>
                 </div>           
                 <img className="img1" src={firstImage} alt="images" />
                 <img className="img2" src={secondImage} alt="images" />
@@ -25,7 +24,7 @@ function Hero(){
                 <img className="img6" src={firstImage} alt="images" />
                 <div>
                     <h2>Welcome Address</h2>
-                    <p>jfvhduilllllllllllllllllllllllllllllllllltrfszddddddscbnvjod;nzdftyrrrrrrrsdgbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkrfttgvjjjjjckmvxdrcfhgvjsdnfvkjxil;yhuogtifjvgkbsenldfmdlhbgvjfcgjhgcfvjhbjnkmexdgyyyyyycfhgvnhbnjsdfhuxcyigfthsdnjxuhkjluhkbdgycvjbknfdjxhbgjdnjmfnjxchbgvnxc         ghjvfchdgyjsehgfvtv</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus voluptatum <br />mollitia commodi reprehenderit iste doloribus alias sapiente modi laborum<br /> doloremque.</p>
                 </div>
             </div>
         </div>

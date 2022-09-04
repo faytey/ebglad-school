@@ -1,0 +1,9 @@
+.brochure {
+    font-family: 'Sora', sans-serif;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background: #0b6cff;
+    color: white;
+    margin-bottom: 1.5rem;
+}

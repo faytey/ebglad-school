@@ -1,0 +1,9 @@
+.Admisions {
+    display: flex;
+    height: 50vh;
+}
+
+.Admisions img {
+    width: 25%;
+    height: 100%;
+}

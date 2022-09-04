@@ -1,9 +1,15 @@
-.Navbar{
+.Navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Sora', sans-serif;
+    /* border-bottom: 1.5px solid #0b6cff; */
 }
 
-.Navbar a{
+.Navbar a {
     margin: 0 1rem;
+    color: black;
+    font-weight: 600;
 }

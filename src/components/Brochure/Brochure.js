@@ -3,7 +3,7 @@ import './Brochure.css';
 
 function Brochure() {
     return (
-        <div>
+        <div className='brochure'>
             <p>Brochure Section</p>
         </div>
     )

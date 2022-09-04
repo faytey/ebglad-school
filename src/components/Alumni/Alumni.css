@@ -1,0 +1,11 @@
+.Alumni {
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    padding: 15px 200px;
+}
+
+.Alumni h3 {
+    font-size: 40px;
+    color: #0b6cff;
+    margin-bottom: 12px;
+}

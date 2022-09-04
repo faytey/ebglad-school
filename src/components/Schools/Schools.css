@@ -1,0 +1,16 @@
+.Schools {
+    display: flex;
+    justify-content: center;
+    padding: 10px 150px;
+    background: #0b6cff;
+    margin-top: 30px;
+}
+
+.Schools img {
+    width: 20%;
+    height: 280px;
+}
+
+.Schools img:nth-child(2) {
+    margin: 0 70px;
+}

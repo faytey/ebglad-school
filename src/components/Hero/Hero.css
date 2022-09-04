@@ -1,25 +1,28 @@
-.Hero .first-div{
+.Hero {
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+}
+
+.Hero .first-div {
     position: relative;
-    background-image: url("Hero Assets/hero-ellipse.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("Hero Assets/hero-ellipse.png") no-repeat center center/cover;
     width: 100vw;
     height: 36rem;
 }
 
-.first-div img{
+.first-div img {
     position: absolute;
 }
 
-.img1, .img2, .img3{
-    background: 
-    linear-gradient(#161a20, #0b6cff) border-box;
+.img1,
+.img2,
+.img3 {
+    background: linear-gradient(#161a20, #0b6cff) border-box;
     border-radius: 50%;
     border: 0.5rem solid transparent;
 }
 
-.img1{
+.img1 {
     width: 12rem;
     height: 12rem;
     left: 40rem;
@@ -27,7 +30,7 @@
     z-index: 2;
 }
 
-.img2{
+.img2 {
     border-width: 0.7rem;
     width: 17rem;
     height: 17rem;
@@ -36,7 +39,7 @@
     z-index: 1;
 }
 
-.img3{
+.img3 {
     border-width: 1rem;
     width: 24rem;
     height: 24rem;
@@ -44,29 +47,64 @@
     top: 11.7rem;
 }
 
-.img5{
+.img5 {
     width: 5rem;
     height: 5rem;
     left: 52rem;
     top: 27rem;
 }
 
-.img6{
-    width: 25rem;
-    height: 15rem;
+.img6 {
+    width: 35rem;
+    height: 18rem;
     border-radius: 0 3rem 3rem 0;
 }
 
-.second-div{
+.second-div {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 3% 0;
+    text-align: center;
+    align-items: center;
 }
 
-.ebglad-intro{
+.second-div div {
+    margin-left: 100px;
+}
+
+.second-div h2 {
+    color: #0b6cff;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.ebglad-intro {
     display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    height: 100%;
     color: #0b6cff;
     font-weight: 600;
     font-size: 2rem;
+    text-align: center;
+}
+
+.ebglad-intro h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.ebglad-intro a {
+    color: white;
+    padding: 10px 15px;
+    background: #0b6cff;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.ebglad-intro a:hover {
+    transform: translateY(-10px);
 }
